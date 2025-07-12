@@ -22,7 +22,7 @@
         };
 
         win {
-            bindings = <&kp LS(F5)>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <12 13>;
         };
 
