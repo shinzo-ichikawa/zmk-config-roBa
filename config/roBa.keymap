@@ -65,7 +65,7 @@
 &kp Q         &kp W        &kp E        &kp R             &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A         &kp S        &kp D        &kp F             &kp G      &mkp RCLK            &kp LC(SPACE)  &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &kp Z         &mt LC(X) X  &mt LC(C) C  &kp V             &kp B      &kp PRINTSCREEN      &kp CAPSLOCK   &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_CONTROL QUESTION
-&kp LEFT_GUI  &kp F8       &kp F7       &mt LSHFT LS(N5)  &mkp LCLK  &lt 2 SPACE          &kp BACKSPACE  &lt 1 ENTER                             &mt LCTRL CAPSLOCK
+&kp LEFT_GUI  &kp F8       &kp F7       &mt LSHFT LS(N5)  &mkp LCLK  &lt 2 SPACE          &kp BACKSPACE  &lt 1 ENTER                             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
