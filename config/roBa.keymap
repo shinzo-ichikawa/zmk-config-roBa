@@ -32,7 +32,7 @@
         };
 
         day {
-            bindings = <&kp LC(COLON)>;
+            bindings = <&kp LC(SEMI)>;
             key-positions = <20 21>;
         };
     };
