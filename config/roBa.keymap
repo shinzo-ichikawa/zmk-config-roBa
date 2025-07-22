@@ -86,7 +86,7 @@
 &kp LEFT_WIN  &kp LS(F8)   &kp LS(F7)   &kp LS(N5)  &mkp MB1  &lt 1 SPACE          &kp LC(SPACE)    &lt 2 ENTER                             &mt LEFT_CONTROL CLCK
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) LC(DOWN_ARROW)>;
         };
 
         FUNCTION {
