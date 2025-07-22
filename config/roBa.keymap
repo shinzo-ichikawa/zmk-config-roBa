@@ -30,22 +30,22 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 12>;
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            bindings = <&kp TAB>;
+            key-positions = <18 19>;
         };
 
         muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+            bindings = <&kp LC(INT_MUHENKAN)>;
+            key-positions = <26 25>;
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp SEMI>;
             key-positions = <20 21>;
         };
 
@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))        &kp RIGHT_ARROW  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp PRINTSCREEN      &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt 1 SPACE          &kp LC(SPACE)    &lt 2 ENTER                             &kp DEL
+&kp Q         &kp W        &kp E        &kp R       &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A         &kp S        &kp D        &kp F       &kp G     &kp LS(LG(S))        &kp RIGHT_ARROW  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z         &mt LC(X) X  &mt LC(C) C  &kp V       &kp B     &kp PRINTSCREEN      &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT QMARK
+&kp LEFT_WIN  &kp LS(F8)   &kp LS(F7)   &kp LS(N5)  &mkp MB1  &lt 1 SPACE          &kp LC(SPACE)    &lt 2 ENTER                             &mt LEFT_CONTROL CLCK
             >;
 
             sensor-bindings = <&inc_dec_kp LC(UP_ARROW) DOWN_ARROW>;
