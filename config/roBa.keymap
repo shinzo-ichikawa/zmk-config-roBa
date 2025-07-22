@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp F7  &kp F8  &kp F4  &kp PSCRN
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp LS(DEL)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp F12
+&kp ESC          &kp LS(N7)        &kp LS(N8)  &kp LS(N9)        &trans                            &trans  &kp F7  &kp F8  &kp F4  &kp PSCRN
+&trans           &kp LS(N4)        &kp LS(N5)  &kp LS(NUMBER_6)  &trans        &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &trans
+&kp LA(LC(DEL))  &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(NUMBER_3)  &kp QUESTION  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp LS(DEL)
+&trans           &trans            &trans      &trans            &trans        &trans      &trans  &trans                          &trans
             >;
         };
 
