@@ -38,21 +38,6 @@
             bindings = <&kp TAB>;
             key-positions = <18 19>;
         };
-
-        muhennkann {
-            bindings = <&kp LC(INT_MUHENKAN)>;
-            key-positions = <26 25>;
-        };
-
-        double_quotation {
-            bindings = <&kp SEMI>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
     };
 
     macros {
