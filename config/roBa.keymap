@@ -38,6 +38,11 @@
             bindings = <&kp TAB>;
             key-positions = <18 19>;
         };
+
+        day {
+            bindings = <&kp LC(SEMICOLON)>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
