@@ -43,6 +43,11 @@
             bindings = <&kp LC(SEMICOLON)>;
             key-positions = <20 21>;
         };
+
+        hizuke {
+            bindings = <&kp LC(V)>;
+            key-positions = <26 25>;
+        };
     };
 
     macros {
